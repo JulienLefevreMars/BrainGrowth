@@ -271,6 +271,9 @@ if __name__ == '__main__':
     # Midplane
     Ft = midPlane(Ut, Ut0, Ft, SN, nsn, mpy, a, hc, K)
 
+    # Print step -> Add JL, 20/08/2020
+    print ('step: ' + str(step) + ' t: ' + str(t) )
+
     # Output
     if step % di == 0:
 
